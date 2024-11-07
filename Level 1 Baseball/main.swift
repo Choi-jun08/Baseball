@@ -51,7 +51,7 @@ func countStrikeAndBall(answer: [Int], guess: [Int]) -> (strikes: Int, balls: In
 
 // 게임을 시작합니다
 func baseBallGame() {
-    let answer = generateAnswer()
+    let answer = generateAnswer() // 게임을 할때마다 숫자가 생성되는것이 아닌 한번 시작하면 그 숫자를 계속해서 맞출 수 있도록
     print("숫자 야구 게임을 시작합니다! 세 자리 숫자를 입력하세요 (첫 자리는 0이 될 수 없습니다.)")
 
     while true {
@@ -76,4 +76,3 @@ func baseBallGame() {
 
 baseBallGame()
 
-//fdsafadfs
